@@ -68,7 +68,7 @@ export const Fetcher: React.FC<Props> = ({
     };
 
     fetchData();
-  }, [api]);
+  }, [searchTerm]);
 
   /**
    * Conditionally render loading text or the result through a render prop.
