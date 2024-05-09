@@ -1,6 +1,6 @@
 {
-  "name": "@mtabe/fetcher",
-  "version": "1.1.0",
+  "name": "@zechtz/fetcher",
+  "version": "1.0.0",
   "description": "A React component for fetching data with render props",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
