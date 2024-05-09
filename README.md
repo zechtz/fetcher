@@ -11,3 +11,30 @@ npm install fetcher
 # or
 yarn fetcher
 ```
+
+### Example Usage
+
+```js
+import React from "react";
+import Fetcher from "fetcher";
+import axios from "axios";
+
+const axiosInstance = axios.create({
+  baseURL: "https://api.example.com",
+});
+
+function App() {
+  return (
+    <Fetcher
+      api="/data"
+      axiosInstance={axiosInstance}
+      render={({ loading, json }) => {
+        if (loading) return <p>Loading...</p>;
+        return <pre>{JSON.stringify(json, null, 2)}</pre>;
+      }}
+    />
+  );
+}
+
+export default App;
+```
