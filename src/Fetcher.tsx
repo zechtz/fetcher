@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { AxiosInstance } from "axios";
+import axios from "axios";
 
 /**
  * Type definition for the response state in the component.
@@ -34,7 +34,7 @@ interface Props {
   enableSearch?: boolean;
   searchTerm?: string;
   loadingLabel?: boolean | string;
-  axiosInstance: AxiosInstance;
+  axiosInstance: typeof axios;
   defaultParams?: { [key: string]: any };
 }
 
