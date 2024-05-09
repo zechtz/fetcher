@@ -1,12 +1,12 @@
 {
-  "name": "fetcher",
+  "name": "@mtabe/fetcher",
   "version": "1.0.0",
   "description": "A React component for fetching data with render props",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://your-repository-url.git"
+    "url": "git+https://github.com/zechtz/fetcher.git"
   },
   "author": "Your Name",
   "license": "MIT",
