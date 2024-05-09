@@ -8,7 +8,7 @@
     "type": "git",
     "url": "git+https://github.com/zechtz/fetcher.git"
   },
-  "author": "Your Name",
+  "author": "Mtabe",
   "license": "MIT",
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0"

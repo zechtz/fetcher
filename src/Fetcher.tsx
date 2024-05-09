@@ -38,7 +38,7 @@ interface Props {
   defaultParams?: { [key: string]: any };
 }
 
-const Fetcher: React.FC<Props> = ({
+export const Fetcher: React.FC<Props> = ({
   api,
   render,
   defaultParams = {},
